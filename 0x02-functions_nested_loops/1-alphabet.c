@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include "main.h"
 /**
  * print_alphabet - print alphabet
@@ -6,13 +6,14 @@
  * Return: no return
  */
 
-void print_alphabet(void) 
+void print_alphabet(void)
 {
 	int i;
-	for(i = 97; i <= 122; i++)
+
+	for (i = 97; i <= 122; i++)
 	{
 		_putchar(i);
 	}
-	_purchar('\n');
+	_putchar('\n');
 }
 
