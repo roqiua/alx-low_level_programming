@@ -7,17 +7,14 @@
 
 int main(void)    
 {
-	int i, n1, n2, n3;
+	int i, n1 = 0, n2 = 1, n3 = 0;
 
 	for (i = 0; i <=98; i++)
 	{
 		n3 = (n1 + n2);
 		printf("%d", n3);
-		if (n3 != 98)
-		{
-			printf(",");
-			printf(" ");
-		}
+		printf(",");
+		printf(" ");
 		n1 = n2;
 		n2 = n3;
 	}
