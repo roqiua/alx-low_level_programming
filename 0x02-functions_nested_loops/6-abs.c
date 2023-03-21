@@ -1,17 +1,21 @@
-
-
-
-
-
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+/**
+ * _abs - absulte value
+ *@n: input
+ *
+ * Return: return +
+ */
 int _abs(int n)
 {
-	if(n < 0)
+	if (n < 0)
 	{
-		return (-1 * n);
+		return (abs(n));
 	}
-	else 
+	else
 	{
-		return n;
+		return (n);
 	}
 }
 
