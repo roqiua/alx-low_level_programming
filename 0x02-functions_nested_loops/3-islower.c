@@ -1,18 +1,22 @@
+#include <stdio.h>
+#include <ctype.h>
+#include "main.h"
+/**
+ * _islower - is lower
+ *
+ * @c: input for alphabet
+ *
+ * Return: 1 if capital, 0 if small, -1 if another
+ */
 
-
-
-int _isalpha(int c)
+int _islower(int c)
 {
-	if(c <= 65 && c >= 90)
+	if (islower(c))
 	{
 		return (1);
 	}
-	else if(c <= 97 && c >= 122)
+	else
 	{
 		return (0);
-	}
-	else 
-	{
-		return (-1);
 	}
 }
