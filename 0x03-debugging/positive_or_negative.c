@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always return 0 (Success)
  */
-int positive_or_negative(int i)
+void positive_or_negative(int i)
 {
 	if (i > 0)
 	{
@@ -20,8 +21,4 @@ int positive_or_negative(int i)
 	{
 		printf("%d is zero\n", i);
 	}
-	return (0);
 }
-
-
-
