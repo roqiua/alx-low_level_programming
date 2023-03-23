@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 #include <ctype.h>
-/** _isupper - fun for is upper
- * @c: input
+
+/**
+ *_isupper - fun for is upper
+ *@c: input
  *
  * Return: return 1 or 0
  */
