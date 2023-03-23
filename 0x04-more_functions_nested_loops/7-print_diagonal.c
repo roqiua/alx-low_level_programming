@@ -1,6 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * print_diagonal - function
+ * @n: input
+ *
+ * Return: no return
  */
 
 void print_diagonal(int n)
